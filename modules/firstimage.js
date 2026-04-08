@@ -1,7 +1,7 @@
 function firstImage(noiDung) {
 	var regExp = /<img[^>]+src="?([^"\s]+)"?[^>]*\/>/g;
 	var results = regExp.exec(noiDung);
-	var image = 'https://trangtin-79wd.onrender.com';
+	var image = 'https://trangtin-79wd.onrender.com/images/noimage.png';
 	if(results) image = results[1];
 	return image;
 }
